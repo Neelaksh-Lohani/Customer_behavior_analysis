@@ -1,9 +1,73 @@
 # Customer_behavior_analysis
-This project analyzes customer purchasing behavior to uncover actionable business insights using data analytics techniques. The primary objective is to understand customer demographics, buying patterns, product preferences, and subscription influence in order to support strategic, data-driven business decisions.
-The analysis is conducted on a dataset containing approximately 3,900 purchase transactions collected across multiple product categories and geographical locations. The dataset includes customer demographic attributes, transaction details, review ratings, discount usage, product categories, and subscription status. The project follows a structured data analytics pipeline involving data exploration, preprocessing, feature engineering, database integration, and business intelligence analysis.
+1.) Project Overview
+Customer Shopping Behavior Analysis is a data analytics project focused on identifying meaningful insights from customer purchase data. The goal of this project is to analyze customer demographics, spending behavior, product preferences, and subscription patterns to help businesses make data-driven decisions and optimize marketing and pricing strategies.
+The project analyzes approximately 3,900 customer purchase transactions across multiple product categories and geographic locations. Using Python and SQL, the project demonstrates a complete data analytics workflow from data preprocessing to business insight generation.
 
-Python was used extensively for data cleaning and transformation. Missing values in review ratings were handled using median imputation grouped by product category to maintain statistical reliability. Column names were standardized for consistency, and new analytical features such as customer age group segmentation and purchase frequency indicators were engineered to enhance behavioral analysis. The cleaned dataset was then integrated into a PostgreSQL database to perform advanced SQL queries and derive business insights.
+2.) Objectives
+Understand customer purchase behavior and spending trends
+Identify high-value customer segments
+Analyze discount usage and its impact on sales
+Evaluate product performance based on ratings and purchase trends
+Study subscription influence on customer retention
+Provide actionable business recommendations
 
-The project identifies key revenue drivers and highlights customer segments contributing significantly to overall sales performance. Analysis revealed that loyal and repeat customers account for a major portion of revenue, demonstrating strong customer retention patterns. The study also examined discount usage behavior and identified several products with high discount dependency, providing insights into pricing optimization and promotional strategy effectiveness. Additionally, subscription analysis revealed untapped potential in converting repeat customers into long-term subscribers, presenting opportunities for improving customer engagement and retention.
+3.) Dataset Description
+The dataset contains:
+Customer Demographics
+Transaction Details
+Product Categories
+Review Ratings
+Discount Usage
+Subscription Status
+Geographic Purchase Distribution
 
-This project demonstrates practical application of Python, SQL, and data analytics techniques to solve real-world business problems. It provides valuable insights that can help organizations optimize marketing campaigns, enhance customer segmentation strategies, improve product positioning, and maximize profitability.
+4.) Tech Stack
+Python
+Pandas
+NumPy
+SQL (PostgreSQL)
+Data Visualization & Analysis
+Jupyter Notebook / Python Scripts
+
+5.) Data Preprocessing
+Handled missing review ratings using median imputation
+Standardized column naming conventions
+Created new features:
+Customer age group segmentation
+Purchase frequency indicators
+Integrated cleaned data into PostgreSQL for SQL-based analysis
+
+6.) Key Insights
+  Customer Segmentation
+Loyal customers contribute to the majority of total revenue
+Repeat buyers show strong engagement potential
+New customers represent growth opportunities
+
+  Revenue Analysis
+Certain demographic groups generate higher overall spending
+Male customers showed higher total revenue contribution
+Young adult customers were among the highest spending segments
+
+  Discount Behavior
+Several products showed strong dependency on discount-driven sales
+Identified opportunities to optimize pricing and promotional strategies
+
+  Product Performance
+Identified top-rated and high-performing product categories
+Highlighted products requiring pricing or marketing adjustments
+
+  Subscription Analysis
+Subscription adoption remains low but shows strong potential for retention growth
+Repeat buyers represent the largest untapped subscription opportunity
+
+7.) Business Recommendations
+Strengthen loyalty and reward programs
+Improve targeted marketing campaigns
+Optimize discount strategies to protect profit margins
+Increase subscription adoption among repeat customers
+Focus marketing efforts on high-value demographic segments
+
+----END----
+
+
+
